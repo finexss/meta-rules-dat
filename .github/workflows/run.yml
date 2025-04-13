@@ -2,7 +2,7 @@ name: Build rules dat files
 on:
   workflow_dispatch:
   schedule:
-    - cron: "10 0 * * 5" # 6:30 AM UTC+8
+    - cron: "15 0 * * 5"
   push:
     branches:
       - master
